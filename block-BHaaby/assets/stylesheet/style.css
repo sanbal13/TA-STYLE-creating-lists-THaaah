@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    line-height: 1.5;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	background-color: #d4cea7;
+	font-weight: 700;
+}
+
+/* Header */
+.nav-bar {
+	background-color: #f46026;
+	padding: 32px 0;
+}
+.nav-menu a {
+	text-decoration: none;
+	color:#fff;
+	font-size: 20px;
+}
+.nav-menu ul{
+	justify-content: flex-start;
+}
+.nav-menu li {
+	margin-right: 32px;
+}
+/* List Section */
+li {
+	margin-bottom: 10px;
+}
+.list-section{
+	align-items: stretch;
+}
+.list-background {
+	background-color: #085979;
+	width: 25%;
+	color: #d4cea7;
+	padding: 40px;
+	margin: 20px 0;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.list1 {
+	list-style-type: decimal;
+}
+.list2 {
+	list-style-type: disc;
+}
+.sub-menu {
+	list-style-type: decimal;
+	margin-left: 40px;
+}
+.sub-sub-menu {
+	list-style-type: square;
+	margin-left: 40px;
+}
+.list3 {
+	list-style-image:url("../media/tick.png");
+	list-style-position: inside;
+}
+.list3 li {
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+/* Description List Section  */
+.description-list-section {
+    font-family: 'Roboto Mono', monospace;
+}
+.dl-flex {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	height: 800px;
+}
+dd {
+	font-weight: 400;
+	font-size: 20px;
+	margin-left: 40px;
+	color: #68644f;
+}
+dt {
+	font-size: 28px;
+	font-weight: 400;
+	color: #252c22;
+}
+/* Footer */
+footer {
+	margin-top: 20px;
+	background-color: #252c22;
+	padding: 32px 0;
+}
+
+
