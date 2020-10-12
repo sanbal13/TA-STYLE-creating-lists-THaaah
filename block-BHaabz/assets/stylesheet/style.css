@@ -101,7 +101,7 @@ body{
 	color: #fff;
 }
 .padding {
-	padding : 100px 0;
+	padding : 50px 0;
 }
 /* HR Group */
 .hr-group {
@@ -132,8 +132,9 @@ body{
 
 /* Header */
 .header {
-	background-color: #323347;
 	padding: 32px;
+	position: absolute;
+	width: 100%;
 }
 .header a {
 	text-decoration: none;
@@ -142,7 +143,7 @@ body{
 }
 .brand {
 	font-weight: 900;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .top-nav-item {
@@ -152,27 +153,31 @@ body{
 }
 /*  Submenu */
 .submenu-parent {
-	position: relative;
 	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
 }
+
 .submenu {
 	position: absolute;
 	background-color: #fff;
 	width: 180px;
-	top: 40px;
+	top: 50px;
 	transform: translateX(-110%); 
 	display:none;
+}
+.submenu ul {
+	padding: 20px 0;
 }
 .submenu li{
 	margin-left: 20px;
 	color: #808080;
 }
-#triangle-item {
-	margin: 0px;
-}
-.submenu .triangle{
-	background: linear-gradient(110deg ,#323347 44%, #fff 45%), linear-gradient(70deg, #fff 45%,#323347 55%);
-	height: 10px;
+.submenu .fa-caret-up {
+	position: absolute;
+	font-size: 40px;
+	top: -24px;	
+	left: 70px;
+	color: white;
 }
 .fa-chevron-down {
 	color: #9899a2;
@@ -183,13 +188,9 @@ body{
 
 /* Hero */
 .hero {
-	background-color: #323347;    
+	background : url("../media/banner.svg") 0 100% repeat-x, linear-gradient(rgba(50,51,71,1), rgba(50,51,71,1));
 	text-align: center;
-	padding: 100px;
-	background-image: url("../media/banner.svg");
-	background-repeat: no-repeat;
-	background-position: bottom;
-
+	padding: 200px;
 }
 .hero h1 {
 	color: #fff;
